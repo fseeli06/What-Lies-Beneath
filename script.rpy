@@ -494,7 +494,9 @@ label board:
     with Fade(0.0, 0.0, 0.3)
 
     "DAY 0"
-    
+
+#(interactive) investigation board
+
     scene empty_board
     pause
 
@@ -717,6 +719,8 @@ label fb_glitch:
     
     "{i}You wanted to bury my future, so I decided to bury yours instead.{/i}"
 
+#interactive (basement)
+
     scene basement_body
     with Fade(0.1, 0.0, 0.3)
 
@@ -928,7 +932,9 @@ label shore:
 label escape: 
     scene in_station
     with Fade(0.1,0.0,0.3)
-    
+
+#interactive (yung lightswitch kineme)
+
     show morgan
     ml "He’ll be gone for exactly ninety seconds. I designed my exit before I even walked into this building."
     hide morgan
@@ -954,6 +960,7 @@ label escapee:
 
 label nextday: 
 
+#interactive (new board)
     scene inv_boardfill
     pause
 
